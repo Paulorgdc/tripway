@@ -1,0 +1,43 @@
+/**
+ * Global Stylesheet
+ * Defines core typography, link hover behaviors, and global UI resets.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo-text,
+.nav-logo {
+  color: #007bff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none !important;
+  color: #007bff;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #0056b3;
+}
