@@ -1,6 +1,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.sqlite3
 db.sqlite3
 node_modules/
 dist/
@@ -8,3 +9,14 @@ dev-dist/
 .env
 .vscode/
 venv/
+.env.*
+!.env.example
+
+# Segredos e caches
+.env*.local
+!**/.env.example
+**/.env
+**/.env.*
+.cache/
+.pytest_cache/
+.venv/
