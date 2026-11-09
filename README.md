@@ -2,10 +2,7 @@
 
 TRIPWAY is an academic all-in-one travel planning platform designed to streamline route building, centralize access to points of interest, and optimize travel experiences.
 
-[![Category](https://img.shields.io/badge/CATEGORY-ACADEMIC%20PROJECT-e0004d?style=for-the-badge)](#)
-[![UNIVAG](https://img.shields.io/badge/UNIVAG-555555?style=for-the-badge)](#)
-[![Course](https://img.shields.io/badge/PROJETO%20INTEGRADOR%20EXTENSIONISTA-00c8ff?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/LICENSE-MIT-76b900?style=for-the-badge)](#)
+[![Category](https://img.shields.io/badge/CATEGORY-ACADEMIC%20PROJECT-e0004d?style=for-the-badge)](#)[![UNIVAG](https://img.shields.io/badge/UNIVAG-PROJETO%20INTEGRADOR%20EXTENSIONISTA-00c8ff?style=for-the-badge)](#)[![License](https://img.shields.io/badge/LICENSE-MIT-76b900?style=for-the-badge)](#)
 
 ---
 
