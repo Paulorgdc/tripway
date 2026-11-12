@@ -10,13 +10,15 @@ dev-dist/
 .vscode/
 venv/
 .env.*
-!.env.example
 
 # Segredos e caches
 .env*.local
-!**/.env.example
 **/.env
 **/.env.*
 .cache/
 .pytest_cache/
 .venv/
+
+# Safe templates must remain includable after broad environment patterns.
+!.env.example
+!**/.env.example

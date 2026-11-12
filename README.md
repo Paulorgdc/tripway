@@ -33,9 +33,35 @@ The platform provides a digital solution for travelers to plan, search, and mana
 
 ---
 
+## 📦 Deliverables
+
+| What | Where to see it |
+|---|---|
+| PWA with itinerary planning and Leaflet maps | `frontend/`, `npm run dev` (installable via the PWA manifest) |
+| REST API (Django REST Framework) | `backend/`, `python manage.py runserver` |
+
+---
+
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Paulorgdc/tripway.git
    cd tripway
+   ```
+
+2. Backend (Windows PowerShell):
+   ```powershell
+   cd backend
+   python -m venv .venv
+   ./.venv/Scripts/python.exe -m pip install -r requirements.txt
+   Copy-Item .env.example .env.local
+   ```
+3. Configure local values, then initialize the local database with
+   `./.venv/Scripts/python.exe manage.py migrate` and start it with
+   `./.venv/Scripts/python.exe manage.py runserver`.
+4. In another terminal, enter `frontend`, run `npm ci`, copy `.env.example`
+   to `.env.local`, configure `VITE_API_BASE_URL`, and run `npm run dev`.
+
+Database initialization is an operator action; reviewing this guide does not
+authorize migrations against an existing or remote database.
